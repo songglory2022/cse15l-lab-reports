@@ -33,7 +33,7 @@ Then lets compile the file
 Lets run the file-> java WhereAmI
 
 Then, the computer will list your directory of the file.
-![images](Lab1Screenshot6.png)
+![images](Lab1Screenshot6.png)<br/>
 Next, we should copy **WhereAmI.java** file to other computer, using **scp** Your command should be like this:
 ![images](Lab1Screenshot7.png)
 In the Client server, we can see different user name, os, directory, and file name. 
