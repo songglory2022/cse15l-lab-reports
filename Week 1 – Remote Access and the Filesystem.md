@@ -41,7 +41,7 @@ In the Client server, we can see different user name, os, directory, and file na
 ## 5.Setting an SSH Key
 Whenever, we use command **ssh** and **scp**, the computer requested to login each time. This is why we need SSH Key.
 
-1. Put **ssh -keygen** in the terminal,which will create public key and private key files. 
+1. Put **ssh -keygen** in the terminal, which will create public key and private key files. 
 
 2. We need to copy the public key into the user directory(.ssh).
    
