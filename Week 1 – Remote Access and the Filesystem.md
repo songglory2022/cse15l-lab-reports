@@ -9,13 +9,13 @@ Open Terminal in VS code. To login into other account we should use '**ssh**'.
 For example, if your course specific account is cs15lfa22zz<span>@ieng6.ucsd.edu<br/>
 your command line shoule be<br/>-> ssh cs15lfa22z<span>@ieng6.ucsd.edu
 After logining into your account, you will see similar interaction like this:
-![images](Lab1Screenshot15.png)
+![images](Lab1screenshot15.png)
 
 ## 3.Trying Some Commands
 Use different type of commands like cd,cd~,ls -lat, ls -a, and pwd.
 When I tried cd and cd ~ nothing happended. 
 But when I tried ls -lat and ls -a, I could see all list of files.
-![images](Lab1Screenshot17.png)
+![images](Lab1screenshot17.png
 ![images](Lab1Screenshot18.png)
  What did you see? 
 
