@@ -15,7 +15,7 @@ After logining into your account, you will see similar interaction like this:
 Use different type of commands like cd,cd~,ls -lat, ls -a, and pwd.
 When I tried cd and cd ~ nothing happended. 
 But when I tried ls -lat and ls -a, I could see all list of files.
-![images](Lab1screenshot17.png
+![images](Lab1screenshot17.png)
 ![images](Lab1Screenshot18.png)
  What did you see? 
 
@@ -63,7 +63,7 @@ Whenever, we use command **ssh** and **scp**, the computer requested to login ea
 
 After setting an ssh key, you will able to use ssh and scp without putting password everytime like this!
 ![images](Lab1screenshot12.png)
-![images](Lab1Screenshot13.png)
+![images](Lab1screenshot13.png)
 
 ## 6.Optimizing Remote Running
 
@@ -71,4 +71,4 @@ Through using different commands, users can access and remote other accounts.
 
 I used **ssh** and **scp** to remote to my other account like this. 
 "ls" can directyl list the following remote server.
-![images](Lab1Screenshot14.png)
+![images](Lab1screenshot14.png)
