@@ -16,7 +16,7 @@ Use different type of commands like cd,cd~,ls -lat, ls -a, and pwd.
 
 -For cd and cd~: commands to go to the home directory. 
 I tried cd and cd ~ nothing happended. Because I was already in the home directory.
-![images](Lab1screenshot21.png)
+![images](Lab1screenshot26.png)
 
 But when I tried ls -lat and ls -a, I could see all list of files.
 *ls-lat means to command all the files by the time order and it will be list long(detailed). 
