@@ -15,7 +15,7 @@ After logining into your account, you will see similar interaction like this:
 Use different type of commands like cd,cd~,ls -lat, ls -a, and pwd.
 
 -For cd and cd~: commands to go to the home directory. 
-I tried cd and cd ~ nothing happended. Because I was already in the home directory.
+I tried cd and cd ~ nothing happend. Because I was already in the home directory.
 ![images](Lab1screenshot21.png)
 
 But when I tried ls -lat and ls -a, I could see all list of files.
