@@ -19,6 +19,7 @@ I tried cd and cd ~ nothing happended. Because I was already in the home directo
 ![images](Lab1screenshot26.png)
 
 I tried cd and cd ~ nothing happend. Because I was already in the home directory.
+
 ![images](Lab1screenshot21.png)
 
 But when I tried ls -lat and ls -a, I could see all list of files.
