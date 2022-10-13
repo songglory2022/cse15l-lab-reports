@@ -15,13 +15,11 @@ After logining into your account, you will see similar interaction like this:
 Use different type of commands like cd,cd~,ls -lat, ls -a, and pwd.
 
 -For cd and cd~: commands to go to the home directory. 
-<<<<<<< HEAD
 I tried cd and cd ~ nothing happended. Because I was already in the home directory.
 ![images](Lab1screenshot26.png)
-=======
+
 I tried cd and cd ~ nothing happend. Because I was already in the home directory.
 ![images](Lab1screenshot21.png)
->>>>>>> 9442126161a73465d261a86c84bdfda781872fe9
 
 But when I tried ls -lat and ls -a, I could see all list of files.
 *ls-lat means to command all the files by the time order and it will be list long(detailed). 
