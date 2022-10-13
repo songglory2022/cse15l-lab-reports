@@ -20,7 +20,7 @@ I tried cd and cd ~ nothing happended. Because I was already in the home directo
 
 
 But when I tried ls -lat and ls -a, I could see all list of files.
-*ls-lat means to command all the files by the time order and it will be list long(detailed). 
+*ls-lat means to command all the files by the time order and it will be list long(detailed).<br/> 
 
 *ls -a means to command all the files that starts with.
 ![images](Lab1screenshot22.png)
