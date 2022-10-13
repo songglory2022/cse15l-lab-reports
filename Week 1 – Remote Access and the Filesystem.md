@@ -13,10 +13,22 @@ After logining into your account, you will see similar interaction like this:
 
 ## 3.Trying Some Commands
 Use different type of commands like cd,cd~,ls -lat, ls -a, and pwd.
-When I tried cd and cd ~ nothing happended. 
+
+-For cd and cd~: commands to go to the home directory. 
+I tried cd and cd ~ nothing happended. Because I was already in the home directory.
+![images](Lab1screenshot21.png)
+
 But when I tried ls -lat and ls -a, I could see all list of files.
-![images](Lab1screenshot17.png)
-![images](Lab1Screenshot18.png)
+*ls-lat means to command all the files by the time order and it will be list long(detailed). 
+
+*ls -a means to command all the files that starts with.
+![images](Lab1screenshot22.png)
+![images](Lab1screenshot23.png)
+
+
+Lastly, I tried pwd, which displays the full path of the directory.
+![images](Lab1screenshot25.png)
+
  What did you see? 
 
 ## 4.Moving Files with scp
@@ -27,14 +39,17 @@ Before to start, lets log out to the remote server. Put '**exit**' command! How 
 Create a file name **WhereAmI.java** <br/>
 In **WhereAm.I.java**, put the following code.
 
-`class WhereAmI {
+```
+
+class WhereAmI {
   public static void main(String[] args) {
     System.out.println(System.getProperty("os.name"));
     System.out.println(System.getProperty("user.name"));
     System.out.println(System.getProperty("user.home"));
     System.out.println(System.getProperty("user.dir"));
   }
-}`
+}
+```
 
 Then lets compile the file
 -> javac WhereAmI.java<br/>
@@ -59,7 +74,7 @@ Whenever, we use command **ssh** and **scp**, the computer requested to login ea
      2) Put **mkdir.ssh** in the terminal.<br/>
       
      3) Log out and put<br/>
-     scp/Users/seosonghee/.ssh/id_rsa.pub cs15lfa22pk@ieng6.ucsd.edu:~/.ssh/authorized_keys
+     scp/Users/seosonghee/.ssh/id_rsa.pub cs15lfa22pk<span>@ieng6.ucsd.edu:~/.ssh/authorized_keys
 
 After setting an ssh key, you will able to use ssh and scp without putting password everytime like this!
 ![images](Lab1screenshot12.png)
@@ -69,6 +84,21 @@ After setting an ssh key, you will able to use ssh and scp without putting passw
 
 Through using different commands, users can access and remote other accounts. 
 
-I used **ssh** and **scp** to remote to my other account like this. 
-"ls" can directyl list the following remote server.
-![images](Lab1screenshot14.png)
+Command that we put in "", it can directly run the command that user put in the remoter server.
+
+Also, ; can run many commands, in an one line. 
+
+For example, if I want to compile and run the change in WhereAmI.java both in my server and also, in the remote server, I could use "" and ;. 
+
+First, I add
+```
+System.out.println("Hello"); 
+```
+in WhereAmI.java.
+
+This is the command that I used. 
+
+![images](Lab1screenshot21.png)
+
+->I used "" to compile and run the WhereAmI.java file in the remote computer. 
+Also, i used ; to compile and run the file in one line to make it simple!
