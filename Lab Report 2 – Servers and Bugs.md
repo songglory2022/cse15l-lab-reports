@@ -94,7 +94,7 @@ Also, as I add strawberry in the list when made a Arraylist in the class,
 **Second**, I add an apple in the list. I put 
 **/add?=apple**. 
 
-![](localhost5.png)
+
 
 This method  
 ```
