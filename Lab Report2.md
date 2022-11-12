@@ -1,3 +1,8 @@
+markdown2html-converter /songglory2022/cse15l-lab-reports/Lab Report2.md
+markdown2html-converter /songglory2022/cse15l-lab-reports/Lab Report2.html
+
+
+
 **Lab Report 2 – Servers and Bugs**
 
 **-PartA**<br>
